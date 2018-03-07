@@ -1,0 +1,9 @@
+INSERT INTO user VALUES (1, 'Anton', 'Pupkin');
+INSERT INTO user VALUES (2, 'Maxim', 'Karlov');
+INSERT INTO user VALUES (4, 'Sergey', 'Petrov');
+INSERT INTO user VALUES (5, 'Igor', 'Vladimirov');
+INSERT INTO user VALUES (6, 'Dmitriy', 'Galkin');
+INSERT INTO user VALUES (7, 'Roman', 'Ivanov');
+INSERT INTO user VALUES (8, 'Alexander', 'Popovich');
+INSERT INTO user VALUES (9, 'Arina', 'Abramov');
+INSERT INTO user VALUES (10, 'Kate', 'Drozdova');

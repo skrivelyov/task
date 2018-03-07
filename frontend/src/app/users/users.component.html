@@ -1,0 +1,26 @@
+<div>
+  <h2>Add new User:</h2>
+  <label>User name:
+    <input #userName/>
+  </label>
+  <label>User surname:
+    <input #userSurname/>
+  </label>
+  <button (click)="add(userName.value, userSurname.value);">
+    Add
+  </button>
+</div>
+<div>
+  <h2>USERS:</h2>
+  <ul class="users">
+    <li *ngFor="let user of users">
+      <a routerLink="/user/{{user.id}}">
+        <span>{{user.id}}</span> {{user.name}} {{user.surname}}
+      </a>
+    </li>
+  </ul>
+
+</div>
+
+
+
